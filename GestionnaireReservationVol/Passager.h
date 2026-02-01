@@ -11,4 +11,5 @@ class Passager {
 	string siege;
 	double prix;
 
+	void afficherInformations(){};
 };

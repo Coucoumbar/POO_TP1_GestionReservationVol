@@ -3,8 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\mathi\\Desktop\\UQAC\\Hiver 2026\\8PRO128 - Programmation Orient\u00E9e Objet\\POO_TP1_GestionReservationVol\\GestionnaireReservationVol\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B1043987-2CF7-45D3-992C-C27912251672}|GestionnaireReservationVol.vcxproj|C:\\Users\\mathi\\Desktop\\UQAC\\Hiver 2026\\8PRO128 - Programmation Orient\u00E9e Objet\\POO_TP1_GestionReservationVol\\GestionnaireReservationVol\\Vol.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B1043987-2CF7-45D3-992C-C27912251672}|GestionnaireReservationVol.vcxproj|solutionrelative:Vol.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1043987-2CF7-45D3-992C-C27912251672}|GestionnaireReservationVol.vcxproj|C:\\Users\\mathi\\Desktop\\UQAC\\Hiver 2026\\8PRO128 - Programmation Orient\u00E9e Objet\\POO_TP1_GestionReservationVol\\GestionnaireReservationVol\\Passager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B1043987-2CF7-45D3-992C-C27912251672}|GestionnaireReservationVol.vcxproj|solutionrelative:Passager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1043987-2CF7-45D3-992C-C27912251672}|GestionnaireReservationVol.vcxproj|C:\\Users\\mathi\\Desktop\\UQAC\\Hiver 2026\\8PRO128 - Programmation Orient\u00E9e Objet\\POO_TP1_GestionReservationVol\\GestionnaireReservationVol\\Passager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B1043987-2CF7-45D3-992C-C27912251672}|GestionnaireReservationVol.vcxproj|solutionrelative:Passager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B1043987-2CF7-45D3-992C-C27912251672}|GestionnaireReservationVol.vcxproj|C:\\Users\\mathi\\Desktop\\UQAC\\Hiver 2026\\8PRO128 - Programmation Orient\u00E9e Objet\\POO_TP1_GestionReservationVol\\GestionnaireReservationVol\\GestionnaireReservationVol.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{B1043987-2CF7-45D3-992C-C27912251672}|GestionnaireReservationVol.vcxproj|solutionrelative:GestionnaireReservationVol.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1043987-2CF7-45D3-992C-C27912251672}|GestionnaireReservationVol.vcxproj|C:\\Users\\mathi\\Desktop\\UQAC\\Hiver 2026\\8PRO128 - Programmation Orient\u00E9e Objet\\POO_TP1_GestionReservationVol\\GestionnaireReservationVol\\Vol.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B1043987-2CF7-45D3-992C-C27912251672}|GestionnaireReservationVol.vcxproj|solutionrelative:Vol.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,12 +35,64 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Vol.h",
+              "DocumentMoniker": "C:\\Users\\mathi\\Desktop\\UQAC\\Hiver 2026\\8PRO128 - Programmation Orient\u00E9e Objet\\POO_TP1_GestionReservationVol\\GestionnaireReservationVol\\Vol.h",
+              "RelativeDocumentMoniker": "Vol.h",
+              "ToolTip": "C:\\Users\\mathi\\Desktop\\UQAC\\Hiver 2026\\8PRO128 - Programmation Orient\u00E9e Objet\\POO_TP1_GestionReservationVol\\GestionnaireReservationVol\\Vol.h",
+              "RelativeToolTip": "Vol.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-01-31T19:53:12.759Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Passager.h",
+              "DocumentMoniker": "C:\\Users\\mathi\\Desktop\\UQAC\\Hiver 2026\\8PRO128 - Programmation Orient\u00E9e Objet\\POO_TP1_GestionReservationVol\\GestionnaireReservationVol\\Passager.h",
+              "RelativeDocumentMoniker": "Passager.h",
+              "ToolTip": "C:\\Users\\mathi\\Desktop\\UQAC\\Hiver 2026\\8PRO128 - Programmation Orient\u00E9e Objet\\POO_TP1_GestionReservationVol\\GestionnaireReservationVol\\Passager.h",
+              "RelativeToolTip": "Passager.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-01-31T19:53:57.454Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Passager.cpp",
+              "DocumentMoniker": "C:\\Users\\mathi\\Desktop\\UQAC\\Hiver 2026\\8PRO128 - Programmation Orient\u00E9e Objet\\POO_TP1_GestionReservationVol\\GestionnaireReservationVol\\Passager.cpp",
+              "RelativeDocumentMoniker": "Passager.cpp",
+              "ToolTip": "C:\\Users\\mathi\\Desktop\\UQAC\\Hiver 2026\\8PRO128 - Programmation Orient\u00E9e Objet\\POO_TP1_GestionReservationVol\\GestionnaireReservationVol\\Passager.cpp",
+              "RelativeToolTip": "Passager.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-01-31T19:54:27.651Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Vol.cpp",
+              "DocumentMoniker": "C:\\Users\\mathi\\Desktop\\UQAC\\Hiver 2026\\8PRO128 - Programmation Orient\u00E9e Objet\\POO_TP1_GestionReservationVol\\GestionnaireReservationVol\\Vol.cpp",
+              "RelativeDocumentMoniker": "Vol.cpp",
+              "ToolTip": "C:\\Users\\mathi\\Desktop\\UQAC\\Hiver 2026\\8PRO128 - Programmation Orient\u00E9e Objet\\POO_TP1_GestionReservationVol\\GestionnaireReservationVol\\Vol.cpp",
+              "RelativeToolTip": "Vol.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-01-31T19:54:15.084Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "GestionnaireReservationVol.cpp",
               "DocumentMoniker": "C:\\Users\\mathi\\Desktop\\UQAC\\Hiver 2026\\8PRO128 - Programmation Orient\u00E9e Objet\\POO_TP1_GestionReservationVol\\GestionnaireReservationVol\\GestionnaireReservationVol.cpp",
               "RelativeDocumentMoniker": "GestionnaireReservationVol.cpp",
-              "ToolTip": "C:\\Users\\mathi\\Desktop\\UQAC\\Hiver 2026\\8PRO128 - Programmation Orient\u00E9e Objet\\POO_TP1_GestionReservationVol\\GestionnaireReservationVol\\GestionnaireReservationVol.cpp*",
-              "RelativeToolTip": "GestionnaireReservationVol.cpp*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA8AAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\mathi\\Desktop\\UQAC\\Hiver 2026\\8PRO128 - Programmation Orient\u00E9e Objet\\POO_TP1_GestionReservationVol\\GestionnaireReservationVol\\GestionnaireReservationVol.cpp",
+              "RelativeToolTip": "GestionnaireReservationVol.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-01-31T19:18:29.783Z",
               "EditorCaption": ""
