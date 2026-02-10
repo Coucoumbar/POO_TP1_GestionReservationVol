@@ -1,7 +1,12 @@
 #include "Vol.h"
 
+Vol::Vol(int numero, int capacite) {
+	this->numero = numero;
+	this->capacite = capacite;
+}
+
 void Vol::afficherBillets() const {
-	cout << "Billets du vol " << lireNumeroVol() << " : " << endl;
+	cout << endl << "Billets du vol " << lireNumeroVol() << " : " << endl;
 	for (const Passager& passager : passagers) {
 		cout << passager;
 	}
@@ -10,18 +15,17 @@ void Vol::afficherBillets() const {
 void Vol::ajouterPassager(const Passager& nouveauPassager) {
 	passagers.push_back(nouveauPassager);
 
-
-	cout << "Passager ajouté!" << endl;
+	cout << "Passager ajoute!" << endl;
 }
 
-void Vol::annulerBillet(const Passager& annulation) {
+void Vol::annulerBillet(const int id) {
 	int cpt = 0;
 
 	for (Passager& passager : passagers) {
 
-		if (annulation == passager) {
+		if (passager == id) {
 			passagers.erase(passagers.begin() + cpt);
-			cout << "Billet annulé!" << endl;
+			cout << "Billet annule!" << endl;
 			break;
 		}
 
@@ -36,7 +40,7 @@ int Vol::nombrePassagers() const {
 void Vol::fixerNumeroVol(const int nouveauNumero) {
 	numero = nouveauNumero;
 
-	cout << "Numéro changé!" << endl;
+	cout << "Numéro change!" << endl;
 }
 
 int Vol::lireNumeroVol() const {
@@ -49,11 +53,14 @@ void Vol::operator+=(const Passager& nouveauPassager) {
 }
 
 ostream& operator<<(ostream& out, const Vol& vol) {
-	out << "Numéro : " << vol.lireNumeroVol() << endl
-		<< "Capacité : " << vol.capacite << endl
+	out << endl << "Information du vol :" << endl
+		<< "Numero : " << vol.lireNumeroVol() << endl
+		<< "Capacite : " << vol.capacite << endl
 		<< "Passagers :" << endl;
 
-	vol.afficherBillets();
+	for (const Passager& passager : vol.passagers) {
+		cout << passager;
+	}
 
 	return out;
 }

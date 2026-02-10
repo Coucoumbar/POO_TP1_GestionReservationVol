@@ -1,15 +1,37 @@
 // GestionnaireReservationVol.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
 
-//#include "Vol.h"
-//#include "Passager.h"
+#include "Vol.h"
+#include "Passager.h"
 
-#include <iostream>
-using namespace std;
+//#include <iostream>
+//using namespace std;
 
 int main()
 {
-    cout << "Hello";
+    Vol* vol1 = new Vol(1, 10);
+    Vol* vol2 = new Vol(2, 20);
+
+	for (int cpt = 1; cpt <= 10; cpt++)
+	{
+		vol1->ajouterPassager(Passager(cpt, "Passager #" + to_string(cpt), "A" + to_string(cpt), 10.50));
+	}
+
+	cout << *vol1;
+
+	Passager* test = new Passager(1, "Test", "A4", 3);
+
+	*vol1 += *test;
+
+	vol1->annulerBillet(10);
+
+	delete test;
+
+	test = new Passager(10, "Passager #10", "A10", 11.50);
+
+	*vol1 += *test;
+
+	cout << *vol1;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu

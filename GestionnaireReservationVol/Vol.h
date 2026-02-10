@@ -14,8 +14,7 @@ private:
 	vector<Passager> passagers;
 
 public:
-	//Vol(int, int);
-	//~Vol();
+	Vol(int, int);
 
 	//Affiche les billets réservés pour le vol.
 	void afficherBillets() const;
@@ -24,7 +23,7 @@ public:
 	void ajouterPassager(const Passager&);
 
 	//Permet d'annuler un billet réservé par un passager.
-	void annulerBillet(const Passager&);
+	void annulerBillet(const int);
 
 	//Retourne le nombre actuel de passagers.
 	int nombrePassagers() const;
