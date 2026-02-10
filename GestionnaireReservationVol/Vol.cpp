@@ -15,7 +15,7 @@ void Vol::afficherBillets() const {
 void Vol::ajouterPassager(const Passager& nouveauPassager) {
 	passagers.push_back(nouveauPassager);
 
-	cout << "Passager ajoute!" << endl;
+	cout << "* Passager ajoute *" << endl;
 }
 
 void Vol::annulerBillet(const int id) {
@@ -25,7 +25,7 @@ void Vol::annulerBillet(const int id) {
 
 		if (passager == id) {
 			passagers.erase(passagers.begin() + cpt);
-			cout << "Billet annule!" << endl;
+			cout << "* Billet annule *" << endl;
 			break;
 		}
 
@@ -40,7 +40,7 @@ int Vol::nombrePassagers() const {
 void Vol::fixerNumeroVol(const int nouveauNumero) {
 	numero = nouveauNumero;
 
-	cout << "Numéro change!" << endl;
+	cout << "* Numéro mis à jour *" << endl;
 }
 
 int Vol::lireNumeroVol() const {
@@ -49,14 +49,14 @@ int Vol::lireNumeroVol() const {
 
 void Vol::operator+=(const Passager& nouveauPassager) {
 	if (passagers.size() < capacite) { ajouterPassager(nouveauPassager); }
-	else { cout << "Espace insufisant!" << endl; }
+	else { cout << "* Espace insufisant : Vol plein *" << endl; }
 }
 
 ostream& operator<<(ostream& out, const Vol& vol) {
 	out << endl << "Information du vol :" << endl
 		<< "Numero : " << vol.lireNumeroVol() << endl
 		<< "Capacite : " << vol.capacite << endl
-		<< "Passagers :" << endl;
+		<< "Passagers : " << vol.nombrePassagers() << endl;
 
 	for (const Passager& passager : vol.passagers) {
 		cout << passager;

@@ -1,17 +1,29 @@
-// GestionnaireReservationVol.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
-
 #include "Vol.h"
 #include "Passager.h"
 
-//#include <iostream>
-//using namespace std;
+#pragma region Utils
+void info(string text) {
+	cout << "* " << text << " *" << endl;
+}
+
+void separator() {
+	cout << endl << "--------------------------------------------------------------------------------" << endl << endl;
+}
+
+void space() {
+	cout << endl;
+}
+#pragma endregion
 
 int main()
 {
+	info("Declaration du premier vol");
     Vol* vol1 = new Vol(1, 10);
-    Vol* vol2 = new Vol(2, 20);
+	info("Vol declare");
 
+	separator();
+
+	info("Ajout de 10 passagers");
 	for (int cpt = 1; cpt <= 10; cpt++)
 	{
 		vol1->ajouterPassager(Passager(cpt, "Passager #" + to_string(cpt), "A" + to_string(cpt), 10.50));
@@ -19,28 +31,38 @@ int main()
 
 	cout << *vol1;
 
-	Passager* test = new Passager(1, "Test", "A4", 3);
+	separator();
 
+	info("Declaration d'un passager de test");
+	Passager* test = new Passager(11, "Passager Test", "T1", 3);
+	info("Passager declare");
+
+	space();
+
+	test->afficherInformations();
+
+	space();
+
+	info("Ajout du passager dans un vol plein");
 	*vol1 += *test;
 
+	space();
+
+	info("Annulation d'un billet");
 	vol1->annulerBillet(10);
 
-	delete test;
+	space();
 
-	test = new Passager(10, "Passager #10", "A10", 11.50);
-
+	info("Ajout du passager dans un vol non-plein");
 	*vol1 += *test;
 
 	cout << *vol1;
+
+	separator();
+
+	info("Declaration du deuxieme vol");
+	Vol* vol2 = new Vol(2, 15);
+	info("Vol declare");
+
+
 }
-
-// Run program: Ctrl + F5 or Debug > Start Without Debugging menu
-// Debug program: F5 or Debug > Start Debugging menu
-
-// Tips for Getting Started: 
-//   1. Use the Solution Explorer window to add/manage files
-//   2. Use the Team Explorer window to connect to source control
-//   3. Use the Output window to see build output and other messages
-//   4. Use the Error List window to view errors
-//   5. Go to Project > Add New Item to create new code files, or Project > Add Existing Item to add existing code files to the project
-//   6. In the future, to open this project again, go to File > Open > Project and select the .sln file
