@@ -1,8 +1,16 @@
+/*
+* Fait par : Mathias Lavoie : LAVM19040400
+* Date : Mardi 10 Février 2026
+*/
+
 #include "Vol.h"
+
+int Vol::nombreVols = 0;
 
 Vol::Vol(int numero, int capacite) {
 	this->numero = numero;
 	this->capacite = capacite;
+	nombreVols++;
 }
 
 void Vol::afficherBillets() const {
@@ -16,6 +24,20 @@ void Vol::ajouterPassager(const Passager& nouveauPassager) {
 	passagers.push_back(nouveauPassager);
 
 	cout << "* Passager ajoute *" << endl;
+}
+
+void Vol::transfererPassagers(Vol& nouveauVol) {
+	int cpt;
+	int quantite = nombrePassagers();
+
+
+	for (cpt = 0; cpt < quantite; cpt++)
+	{
+		nouveauVol += passagers.back();
+		passagers.pop_back();
+	}
+
+	cout << "* " << cpt << " passagers transfere *" << endl;
 }
 
 void Vol::annulerBillet(const int id) {
@@ -45,6 +67,10 @@ void Vol::fixerNumeroVol(const int nouveauNumero) {
 
 int Vol::lireNumeroVol() const {
 	return numero;
+}
+
+int Vol::lireNombreVols() {
+	return nombreVols;
 }
 
 void Vol::operator+=(const Passager& nouveauPassager) {

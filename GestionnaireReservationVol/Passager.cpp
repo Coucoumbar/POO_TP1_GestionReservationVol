@@ -1,3 +1,8 @@
+/*
+* Fait par : Mathias Lavoie : LAVM19040400
+* Date : Mardi 10 Février 2026
+*/
+
 #include "Passager.h"
 
 Passager::Passager(int id, string nom, string siege, double prix) {

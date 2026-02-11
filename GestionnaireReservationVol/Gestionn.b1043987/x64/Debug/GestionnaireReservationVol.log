@@ -1,2 +1,6 @@
 ﻿  GestionnaireReservationVol.cpp
+  Passager.cpp
+  Vol.cpp
+C:\Users\utilisateur\Desktop\UQAC\Hiver 2026\8PRO128 - Programmation orientée objet\Code\POO_TP1_GestionReservationVol\GestionnaireReservationVol\Vol.cpp(59,23): warning C4267: 'return' : conversion de 'size_t' en 'int', perte possible de données
+  Génération de code en cours...
   GestionnaireReservationVol.vcxproj -> C:\Users\utilisateur\Desktop\UQAC\Hiver 2026\8PRO128 - Programmation orientée objet\Code\POO_TP1_GestionReservationVol\GestionnaireReservationVol\x64\Debug\GestionnaireReservationVol.exe
